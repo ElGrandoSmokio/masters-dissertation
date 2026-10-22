@@ -1,0 +1,70 @@
+\chapter{Introduction} \label{chap:ch1}
+
+\section{Context and Motivation}
+
+The continuous growth in data throughput demanded by modern electronic systems has made high-speed communication links a fundamental enabler of contemporary digital platforms. Applications ranging from consumer peripherals to data-center interconnects require sustained data rates in the multi-gigabit-per-second range, while simultaneously satisfying strict constraints on power consumption, \ac{EMI}, and physical interconnect complexity. As semiconductor technology has scaled, transistor switching speeds have improved considerably; however, the electrical performance of interconnects has not kept pace with this evolution, turning the communication channel itself into the dominant bottleneck of many high-performance systems.
+
+Among the standards that rely on high-speed serial signaling, the \ac{USB} has become one of the most widely adopted interfaces for data transfer between electronic devices, owing to its broad industry support, backward compatibility, and continuous evolution toward higher data rates. The \ac{USB} 3.2 Gen~2 revision, commercially marketed as SuperSpeed \ac{USB}, specifies a maximum data rate of 10 Gbps, achieved through \ac{NRZ} signaling transmitted over a differential pair of conductors. Meeting this data rate places considerable demands on the \ac{TX} circuitry responsible for driving the signal onto the channel, particularly with respect to \ac{SI}, output impedance control, and equalization capability, all of which must be guaranteed across \ac{PVT} variation.
+
+This dissertation addresses the design and implementation of a \ac{TX} driver targeting the \ac{USB} 3.2 Gen~2 electrical specification, encompassing both the circuit-level design of the driver and its physical layout implementation in a \SI{55}{\nano\meter} \ac{CMOS} technology node.
+
+\section{Problem Statement}
+
+As channel data rates increase, the frequency-dependent losses inherent to practical electrical interconnects become increasingly significant, giving rise to \ac{ISI} that closes the eye diagram observed at the \ac{RX} and ultimately increases the \ac{BER} of the link. To compensate for these losses, the \ac{TX} driver must incorporate equalization, typically implemented as a multi-tap \ac{FIR} filter structure known as \ac{FFE}, capable of pre-distorting the transmitted waveform in accordance with the \ac{PS} and \ac{DE} settings defined by the \ac{USB} 3.2 specification.
+
+Beyond the equalization capability itself, the driver must simultaneously satisfy a demanding set of electrical requirements, including a tightly controlled differential output impedance, a configurable output voltage swing, and low \ac{TX}-induced jitter, all while operating at a \ac{UI} of \SI{100}{\pico\second}. These requirements must be met not only under nominal conditions, but across the full range of \ac{PVT} corners and passive-device process variation to which the fabricated \ac{IC} will be subject. %Achieving this level of robustness requires careful circuit-level design of the driver's current-steering and current-mirror structures, as well as a physical layout methodology capable of preserving the electrical symmetry and matching properties required for differential, high-speed operation, where layout-induced parasitics can have a first-order impact on overall performance.
+Achieving this level of robustness requires careful circuit-level design of the driver's output signals generating mechanisms, as well as a physical layout methodology capable of preserving the electrical symmetry and matching properties required for differential, high-speed operation, where layout-induced parasitics can have a first-order impact on overall performance.
+
+The central problem addressed in this dissertation is therefore twofold: first, the design of a segmented, digitally configurable \ac{CML} driver architecture capable of realizing the equalization and impedance requirements of the \ac{USB} 3.2 Gen~2 standard; and second, the development of a modular, abuttable layout capable of preserving this performance once physical, layout-dependent effects are taken into account.
+
+\section{Objectives}
+
+The main objective of this dissertation is the design, implementation, and verification of a 10 Gbps \ac{TX} driver targeting the \ac{USB} 3.2 Gen~2 normative electrical specifications. This overarching objective can be decomposed into the following specific goals:
+
+\begin{itemize}
+ \item Study and characterize the fundamental signal integrity mechanisms relevant to high-speed serial links, including \ac{ISI}, jitter, and channel loss, and the equalization techniques used to compensate for them;
+ \item Define and design a \ac{CML} based driver architecture capable of implementing a 3-tap \ac{FFE} structure, with independently configurable pre-cursor, main-cursor and post-cursor taps;
+ \item Derive the tap current requirements for a representative set of equalization presets, covering the \ac{PS} and \ac{DE} ranges defined by the \ac{USB} 3.2 specification;
+ \item Size and bias the driver's differential pairs and current mirrors to guarantee correct operation, in saturation, across the full range of output voltage and tap current combinations;
+ \item Design a modular, abuttable standard-cell layout for the basic building block of the driver, the tap unit, accounting for layout-dependent effects;
+ \item Evaluate the driver against the relevant USB 3.2 Gen 2 normative electrical specifications both at schematic level and after layout parasitic extraction, across relevant PVT and resistor process corners.
+\end{itemize}
+
+\section{Main Design Requirements}
+
+The design requirements adopted throughout this work are derived directly from the normative \ac{USB} 3.2 Gen~2 10 Gbps transmitter electrical specifications, which specifies targets for the \ac{TX} driver's output voltage swing, differential output impedance, equalization capability, and signal quality metrics, ensuring the interoperability of the transmitter with compliant receivers. 
+
+%The design requirements adopted throughout this work are derived directly from the normative \ac{USB} 3.2 Gen~2 10 Gbps transmitter electrical specifications. The \ac{UI} is nominally set to \SI{100}{\pico\second}, with a differential output voltage swing specified between \SI{0.8}{\volt_{pp}} and \SI{1.2}{\volt_{pp}}, and a \ac{DC} differential output impedance specified between \SI{72}{\ohm} and \SI{120}{\ohm}. The equalization capability of the driver must span a \ac{PS} range of \SIrange{1.2}{3.2}{\decibel} and a \ac{DE} range of \SIrange{2.1}{7}{\decibel}.
+
+%The normative Gen~2 transmitter-eye requirements specify an eye height between 70~mV and 1200~mV, together with maximum \ac{DJ}, \ac{RJ}, and \ac{TJ} values of 0.530~\ac{UI}, 0.141~\ac{UI}, and 0.671~\ac{UI}, respectively. These limits apply under the compliance measurement methodology defined by the \ac{USB} 3.2 specification.
+
+In addition to these electrical targets, the driver is designed to be digitally configurable, so that the output swing, equalization coefficients, and termination impedance can each be tuned independently to compensate for \ac{PVT} variation and to support multiple equalization presets without requiring changes to the underlying circuit topology.
+
+\section{Methodology}
+
+The work presented in this dissertation follows the standard top-down \ac{IC} design methodology, beginning with the definition of target specifications derived from the \ac{USB} 3.2 \ac{PHY} requirements, and progressively refining these into a fully verified physical implementation.
+
+Behavioral and schematic-level design and simulation were carried out using Synopsys Custom Compiler, targeting the GlobalFoundries \SI{55}{\nano\meter} LPx \ac{CMOS} technology, with transistor-level simulations were performed using Spectre and HSPICE.
+
+Following schematic-level validation, the physical layout of the driver was implemented with a focus on modularity, device matching, and abuttability, and subsequently verified through \ac{DRC} and \ac{LVS} checks against the foundry \ac{DRM}. Parasitic elements introduced by the layout were then extracted and back-annotated into simulation, allowing the driver's performance to be re-evaluated with layout-induced effects taken into account, and compared against both the pre-layout results and the normative \ac{USB} 3.2 Gen~2 compliance targets.
+
+\section{Main Contributions}
+
+The main contributions of this dissertation can be summarized as follows:
+
+\begin{itemize}
+    \item The design of a segmented \ac{CML} \ac{TX} driver architecture, composed of independently sized pre-cursor, main-cursor, and post-cursor tap stages, capable of realizing a representative set of programmable equalization presets spanning the normative \ac{USB} 3.2 Gen~2 \ac{PS} and \ac{DE} ranges through purely digital current-mirror configuration;
+    \item A systematic derivation of the relationship between the \ac{FFE} tap coefficients and the normative \ac{PS}/\ac{DE} equalization metrics, enabling direct translation of standard compliance targets into tap current requirements;
+    \item A modular, abuttable tap-unit standard-cell layout methodology, incorporating common-centroid device placement, dummy-based shielding against layout-dependent effects, and a shared guard-ring strategy, allowing the driver to be reconfigured or resized with minimal area penalty;
+    \item Pre- and post-layout verification of the proposed driver against the \ac{USB} 3.2 Gen~2 normative specification, across \ac{PVT} and resistor process corners.
+\end{itemize}
+
+\section{Dissertation Organization}
+
+Besides this introductory chapter, this dissertation is organized as follows. Chapter~\ref{chap:ch2} reviews the fundamental concepts underlying high-speed serial links, covering communication linka rchitectures, differential signaling, \ac{NRZ} encoding, \ac{SI} metrics, equalization techniques, \ac{TX} driver architectures, and the \ac{IC} layout considerations relevant to high-speed, matched analog design. 
+
+Chapter~\ref{chap:ch3} presents the proposed \ac{TX} driver architecture, detailing the derivation of the equalization tap coefficients, the circuit-level implementation and sizing of the driver, and the layout methodology adopted for the driver's building blocks. 
+
+Chapter~\ref{chap:ch4} presents the verification methodology and the pre- and post-layout simulation results obtained for the proposed driver, evaluated against the \ac{USB} 3.2 Gen~2 normative specifications. 
+
+Finally, Chapter~\ref{chap:ch5} summarizes the work developed throughout this dissertation, discusses the fulfillment of the proposed objectives, identifies the main limitations of the current implementation, and outlines directions for future work.

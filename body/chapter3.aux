@@ -1,0 +1,393 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Proposed Transmitter Architecture and Development}{41}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:ch3}{{3}{41}{Proposed Transmitter Architecture and Development}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}\acs *{USB} 3.2 Transmitter Specifications}{41}{section.3.1}\protected@file@percent }
+\newlabel{sec:usb32_specs}{{3.1}{41}{\acs *{USB} 3.2 Transmitter Specifications}{section.3.1}{}}
+\acronymused{USB}
+\acronymused{UI}
+\AC@undonewlabel{acro:DC}
+\newlabel{acro:DC}{{3.1}{41}{\acs *{USB} 3.2 Transmitter Specifications}{section*.96}{}}
+\acronymused{DC}
+\AC@undonewlabel{acro:AC}
+\newlabel{acro:AC}{{3.1}{41}{\acs *{USB} 3.2 Transmitter Specifications}{section*.97}{}}
+\acronymused{AC}
+\acronymused{TX}
+\acronymused{RX}
+\acronymused{PS}
+\acronymused{DE}
+\acronymused{PS}
+\acronymused{DE}
+\acronymused{DJ}
+\acronymused{RJ}
+\AC@undonewlabel{acro:TJ}
+\newlabel{acro:TJ}{{3.1}{41}{\acs *{USB} 3.2 Transmitter Specifications}{section*.98}{}}
+\acronymused{TJ}
+\acronymused{UI}
+\acronymused{UI}
+\acronymused{UI}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces USB 3.2 Gen 2 (10\,Gbps) normative transmitter specifications}}{42}{table.caption.99}\protected@file@percent }
+\newlabel{tab:usb32_tx_specs}{{3.1}{42}{USB 3.2 Gen 2 (10\,Gbps) normative transmitter specifications}{table.caption.99}{}}
+\acronymused{UI}
+\acronymused{DC}
+\acronymused{AC}
+\acronymused{PS}
+\acronymused{DE}
+\acronymused{DJ}
+\acronymused{UI}
+\acronymused{RJ}
+\acronymused{UI}
+\acronymused{TJ}
+\acronymused{UI}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Overall Driver Architecture}{42}{section.3.2}\protected@file@percent }
+\newlabel{sec:overall_driver_architecture}{{3.2}{42}{Overall Driver Architecture}{section.3.2}{}}
+\acronymused{CML}
+\acronymused{FIR}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces High level \ac {CML} \ac {TX} driver diagram}}{42}{figure.caption.100}\protected@file@percent }
+\acronymused{CML}
+\acronymused{TX}
+\newlabel{fig:driver_block_diagram}{{3.1}{42}{High level \ac {CML} \ac {TX} driver diagram}{figure.caption.100}{}}
+\acronymused{PVT}
+\acronymused{PVT}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Transmitter Equalization}{43}{section.3.3}\protected@file@percent }
+\newlabel{sec:tx_equalization}{{3.3}{43}{Transmitter Equalization}{section.3.3}{}}
+\acronymused{USB}
+\acronymused{TX}
+\acronymused{PS}
+\acronymused{DE}
+\acronymused{PS}
+\acronymused{DE}
+\acronymused{FIR}
+\newlabel{eq:ps_de_definition}{{3.1}{43}{Transmitter Equalization}{equation.3.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Example output waveform provided in the USB 3.2 specification. Reproduced from \blx@tocontentsinit {0}\cite {usb32_specs}}}{44}{figure.caption.101}\protected@file@percent }
+\newlabel{fig:EQ_example_from_USB_spec}{{3.2}{44}{Example output waveform provided in the USB 3.2 specification. Reproduced from \cite {usb32_specs}}{figure.caption.101}{}}
+\newlabel{eq:tap_voltages}{{3.4}{44}{Transmitter Equalization}{equation.3.3.4}{}}
+\acronymused{PS}
+\acronymused{DE}
+\newlabel{eq:tap_coefficients}{{3.5}{44}{Transmitter Equalization}{equation.3.3.5}{}}
+\newlabel{eq:tap_current}{{3.9}{45}{Transmitter Equalization}{equation.3.3.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces \ac {TX} and \ac {RX} termination currents}}{45}{figure.caption.102}\protected@file@percent }
+\acronymused{TX}
+\acronymused{RX}
+\newlabel{fig:tx_rx_termination}{{3.3}{45}{\ac {TX} and \ac {RX} termination currents}{figure.caption.102}{}}
+\acronymused{TX}
+\acronymused{RX}
+\newlabel{eq:tap_tail_current}{{3.10}{45}{Transmitter Equalization}{equation.3.3.10}{}}
+\newlabel{eq:tap_constraint}{{3.11}{45}{Transmitter Equalization}{equation.3.3.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Equalization Settings}{45}{subsection.3.3.1}\protected@file@percent }
+\acronymused{USB}
+\acronymused{PS}
+\acronymused{DE}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Tap current flow}}{46}{figure.caption.103}\protected@file@percent }
+\newlabel{fig:tap_curr_control}{{3.4}{46}{Tap current flow}{figure.caption.103}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1.1}Equalization Presets and Current Requirements}{46}{subsubsection.3.3.1.1}\protected@file@percent }
+\newlabel{sec:eq_presets_current}{{3.3.1.1}{46}{Equalization Presets and Current Requirements}{subsubsection.3.3.1.1}{}}
+\acronymused{PS}
+\acronymused{DE}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Equalization Presets}}{46}{table.3.2}\protected@file@percent }
+\newlabel{tab:equalization_presets}{{3.2}{46}{Equalization Presets}{table.3.2}{}}
+\acronymused{USB}
+\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Enable Signal Mapping}}{47}{table.3.3}\protected@file@percent }
+\newlabel{tab:eq_enable_map}{{3.3}{47}{Enable Signal Mapping}{table.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Driver Implementation}{48}{section.3.4}\protected@file@percent }
+\newlabel{sec:driver_implementation}{{3.4}{48}{Driver Implementation}{section.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Tap Unit}{48}{subsection.3.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Tap unit schematic}}{48}{figure.caption.104}\protected@file@percent }
+\newlabel{fig:tap_unit_schematic}{{3.5}{48}{Tap unit schematic}{figure.caption.104}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Tap Unit Sizing and Biasing}{49}{subsection.3.4.2}\protected@file@percent }
+\acronymused{USB}
+\newlabel{eq:vo_se}{{3.18}{49}{Tap Unit Sizing and Biasing}{equation.3.4.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Differential pair and current mirror node voltages}}{50}{figure.caption.105}\protected@file@percent }
+\newlabel{fig:diff_pair_mirror_node_voltages}{{3.6}{50}{Differential pair and current mirror node voltages}{figure.caption.105}{}}
+\newlabel{eq:headroom_split}{{3.20}{50}{Tap Unit Sizing and Biasing}{equation.3.4.20}{}}
+\newlabel{fig:mirror_id_vs_vds_var_L}{{3.7a}{51}{$I_{D}$ versus $V_{DS}$ for varying lengths}{figure.caption.106}{}}
+\newlabel{sub@fig:mirror_id_vs_vds_var_L}{{a}{51}{$I_{D}$ versus $V_{DS}$ for varying lengths}{figure.caption.106}{}}
+\newlabel{fig:mirror_id_vs_vds_var_nf}{{3.7b}{51}{$I_D$ versus $V_{DS}$ with $L = 3 \times L_{min}$}{figure.caption.106}{}}
+\newlabel{sub@fig:mirror_id_vs_vds_var_nf}{{b}{51}{$I_D$ versus $V_{DS}$ with $L = 3 \times L_{min}$}{figure.caption.106}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Mirror $I_D$ versus $V_{DS}$ for varying device lengths and finger counts}}{51}{figure.caption.106}\protected@file@percent }
+\newlabel{fig:mirror_id_vs_vds}{{3.7}{51}{Mirror $I_D$ versus $V_{DS}$ for varying device lengths and finger counts}{figure.caption.106}{}}
+\AC@undonewlabel{acro:SLVT}
+\newlabel{acro:SLVT}{{3.4.2}{51}{Tap Unit Sizing and Biasing}{section*.107}{}}
+\acronymused{SLVT}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces $\frac  {gm}{Id}$ versus $V_{OV}$}}{51}{figure.caption.108}\protected@file@percent }
+\newlabel{fig:gmid_vs_vov}{{3.8}{51}{$\frac {gm}{Id}$ versus $V_{OV}$}{figure.caption.108}{}}
+\AC@undonewlabel{acro:RVT}
+\newlabel{acro:RVT}{{3.4.2}{51}{Tap Unit Sizing and Biasing}{section*.109}{}}
+\acronymused{RVT}
+\acronymused{SLVT}
+\newlabel{eq:vincm_condition}{{3.21}{52}{Tap Unit Sizing and Biasing}{equation.3.4.21}{}}
+\newlabel{fig:diff_pair_id_vs_vincm}{{3.9a}{53}{$I_{D}$ versus $V_{in,CM}$}{figure.caption.110}{}}
+\newlabel{sub@fig:diff_pair_id_vs_vincm}{{a}{53}{$I_{D}$ versus $V_{in,CM}$}{figure.caption.110}{}}
+\newlabel{fig:diff_pair_vtail_vs_vincm}{{3.9b}{53}{$V_{tail}$ versus $V_{in,CM}$}{figure.caption.110}{}}
+\newlabel{sub@fig:diff_pair_vtail_vs_vincm}{{b}{53}{$V_{tail}$ versus $V_{in,CM}$}{figure.caption.110}{}}
+\newlabel{fig:diff_pair_vds_vs_vincm}{{3.9c}{53}{$V_{DS}$ versus $V_{in,CM}$}{figure.caption.110}{}}
+\newlabel{sub@fig:diff_pair_vds_vs_vincm}{{c}{53}{$V_{DS}$ versus $V_{in,CM}$}{figure.caption.110}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Differential pair $I_{D}$, $V_{DS,mirror}$ and $V_{tail}$ versus $V_{in,CM}$ for varying device finger counts}}{53}{figure.caption.110}\protected@file@percent }
+\newlabel{fig:diff_pair_id_vout_vs_vincm}{{3.9}{53}{Differential pair $I_{D}$, $V_{DS,mirror}$ and $V_{tail}$ versus $V_{in,CM}$ for varying device finger counts}{figure.caption.110}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces $I_{D}$ of both steering devices}}{54}{figure.caption.111}\protected@file@percent }
+\newlabel{fig:diff_pair_input_sweep}{{3.10}{54}{$I_{D}$ of both steering devices}{figure.caption.111}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces $I_{D,P}$ for current enable signals}}{55}{figure.caption.112}\protected@file@percent }
+\newlabel{fig:diff_pair_idiff_vs_en}{{3.11}{55}{$I_{D,P}$ for current enable signals}{figure.caption.112}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.4}{\ignorespaces Tap unit sizing}}{55}{table.caption.113}\protected@file@percent }
+\newlabel{tab:tap_unit_final_sizing}{{3.4}{55}{Tap unit sizing}{table.caption.113}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2.1}Current Mirror Biasing Circuit}{55}{subsubsection.3.4.2.1}\protected@file@percent }
+\newlabel{sec:mirror_ref_dev}{{3.4.2.1}{55}{Current Mirror Biasing Circuit}{subsubsection.3.4.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Conceptual structure of reference and target circuits. Adapted from \blx@tocontentsinit {0}\cite {razavi}}}{56}{figure.caption.114}\protected@file@percent }
+\newlabel{fig:conceptual_current_mirror_biasing}{{3.12}{56}{Conceptual structure of reference and target circuits. Adapted from \cite {razavi}}{figure.caption.114}{}}
+\AC@undonewlabel{acro:MOSFET}
+\newlabel{acro:MOSFET}{{3.4.2.1}{56}{Current Mirror Biasing Circuit}{section*.115}{}}
+\acronymused{MOSFET}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces CML with a diode-connected reference generator}}{56}{figure.caption.116}\protected@file@percent }
+\newlabel{fig:diode_generator}{{3.13}{56}{CML with a diode-connected reference generator}{figure.caption.116}{}}
+\acronymused{CML}
+\newlabel{eq:id_clm}{{3.29}{57}{Current Mirror Biasing Circuit}{equation.3.4.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces \ac {CML} with a replica reference generator}}{58}{figure.caption.117}\protected@file@percent }
+\acronymused{CML}
+\newlabel{fig:replica_generator}{{3.14}{58}{\ac {CML} with a replica reference generator}{figure.caption.117}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Configurable Current Source}{58}{subsection.3.4.3}\protected@file@percent }
+\newlabel{eq:tail_current_steps}{{3.33}{58}{Configurable Current Source}{equation.3.4.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.15}{\ignorespaces Tap Unit current control high-level view}}{59}{figure.caption.118}\protected@file@percent }
+\newlabel{fig:tap_unit_curr_control}{{3.15}{59}{Tap Unit current control high-level view}{figure.caption.118}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Configurable Termination}{59}{subsection.3.4.4}\protected@file@percent }
+\newlabel{sec:termination_control}{{3.4.4}{59}{Configurable Termination}{subsection.3.4.4}{}}
+\newlabel{eq:termination_resistance}{{3.34}{59}{Configurable Termination}{equation.3.4.34}{}}
+\acronymused{PVT}
+\acronymused{USB}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Layout}{60}{section.3.5}\protected@file@percent }
+\newlabel{sec:layout}{{3.5}{60}{Layout}{section.3.5}{}}
+\acronymused{FIR}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.16}{\ignorespaces Driver layout floorplan}}{60}{figure.caption.119}\protected@file@percent }
+\newlabel{fig:driver_layout_floorplan}{{3.16}{60}{Driver layout floorplan}{figure.caption.119}{}}
+\newlabel{fig:non_abutted}{{3.17a}{61}{Non-abutted layout with separate guard rings}{figure.caption.120}{}}
+\newlabel{sub@fig:non_abutted}{{a}{61}{Non-abutted layout with separate guard rings}{figure.caption.120}{}}
+\newlabel{fig:abutted}{{3.17b}{61}{Abutted layout with shared guard ring}{figure.caption.120}{}}
+\newlabel{sub@fig:abutted}{{b}{61}{Abutted layout with shared guard ring}{figure.caption.120}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.17}{\ignorespaces Example of a non-abutted and abutted layout}}{61}{figure.caption.120}\protected@file@percent }
+\newlabel{fig:abut_example}{{3.17}{61}{Example of a non-abutted and abutted layout}{figure.caption.120}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}Tap Unit Cell Layout}{62}{subsection.3.5.1}\protected@file@percent }
+\newlabel{sec:tap_unit_layout}{{3.5.1}{62}{Tap Unit Cell Layout}{subsection.3.5.1}{}}
+\acronymused{RVT}
+\acronymused{SLVT}
+\acronymused{DRM}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.18}{\ignorespaces Final tap unit schematic}}{62}{figure.caption.121}\protected@file@percent }
+\newlabel{fig:final_tap_unit_schematic}{{3.18}{62}{Final tap unit schematic}{figure.caption.121}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1.1}Standard Cell Floorplan Design}{62}{subsubsection.3.5.1.1}\protected@file@percent }
+\newlabel{sec:tap_unit_floorplan}{{3.5.1.1}{62}{Standard Cell Floorplan Design}{subsubsection.3.5.1.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.5}{\ignorespaces Tap unit device parameters}}{63}{table.caption.122}\protected@file@percent }
+\newlabel{tab:tap_unit_device_parameters}{{3.5}{63}{Tap unit device parameters}{table.caption.122}{}}
+\acronymused{RVT}
+\acronymused{WPE}
+\acronymused{LOD}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.19}{\ignorespaces \ac {RVT} devices floorplan}}{64}{figure.caption.123}\protected@file@percent }
+\acronymused{RVT}
+\newlabel{fig:RVT_floorplan}{{3.19}{64}{\ac {RVT} devices floorplan}{figure.caption.123}{}}
+\acronymused{RVT}
+\acronymused{SLVT}
+\acronymused{RVT}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.20}{\ignorespaces Example of adjacent cell abutting using dummies}}{65}{figure.caption.124}\protected@file@percent }
+\newlabel{fig:abut_cells_example}{{3.20}{65}{Example of adjacent cell abutting using dummies}{figure.caption.124}{}}
+\acronymused{SLVT}
+\acronymused{RVT}
+\acronymused{SLVT}
+\acronymused{RVT}
+\acronymused{RVT}
+\acronymused{RVT}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.21}{\ignorespaces \ac {SLVT} devices floorplan}}{66}{figure.caption.125}\protected@file@percent }
+\acronymused{SLVT}
+\newlabel{fig:SLVT_floorplan}{{3.21}{66}{\ac {SLVT} devices floorplan}{figure.caption.125}{}}
+\acronymused{EM}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}Standard Cell Routing}{66}{subsection.3.5.2}\protected@file@percent }
+\newlabel{sec:standard_cell_routing}{{3.5.2}{66}{Standard Cell Routing}{subsection.3.5.2}{}}
+\acronymused{EM}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.22}{\ignorespaces PMOS devices and resistors floorplan}}{67}{figure.caption.126}\protected@file@percent }
+\newlabel{fig:PMOS_floorplan}{{3.22}{67}{PMOS devices and resistors floorplan}{figure.caption.126}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.1}Enable Signal Routing}{67}{subsubsection.3.5.2.1}\protected@file@percent }
+\acronymused{EM}
+\acronymused{EM}
+\AC@undonewlabel{acro:M4}
+\newlabel{acro:M4}{{3.5.2.1}{67}{Enable Signal Routing}{section*.128}{}}
+\acronymused{M4}
+\AC@undonewlabel{acro:M5}
+\newlabel{acro:M5}{{3.5.2.1}{67}{Enable Signal Routing}{section*.129}{}}
+\acronymused{M5}
+\acronymused{M4}
+\acronymused{M5}
+\AC@undonewlabel{acro:M3}
+\newlabel{acro:M3}{{3.5.2.1}{67}{Enable Signal Routing}{section*.130}{}}
+\acronymused{M3}
+\acronymused{M3}
+\acronymused{M3}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.23}{\ignorespaces High-level representation of the tap unit floorplan}}{68}{figure.caption.127}\protected@file@percent }
+\newlabel{fig:high_level_tap_unit_floorplan}{{3.23}{68}{High-level representation of the tap unit floorplan}{figure.caption.127}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.2}Reference Voltage Routing}{68}{subsubsection.3.5.2.2}\protected@file@percent }
+\acronymused{M4}
+\acronymused{M4}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.3}Differential Signal Routing}{68}{subsubsection.3.5.2.3}\protected@file@percent }
+\acronymused{M4}
+\acronymused{M5}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2.4}Electromigration Considerations}{69}{subsubsection.3.5.2.4}\protected@file@percent }
+\acronymused{EM}
+\acronymused{EM}
+\acronymused{EM}
+\acronymused{RMS}
+\acronymused{DRM}
+\acronymused{EM}
+\acronymused{EM}
+\acronymused{DRM}
+\acronymused{EM}
+\acronymused{M4}
+\acronymused{M5}
+\acronymused{EM}
+\@setckpt{body/chapter3}{
+\setcounter{page}{71}
+\setcounter{equation}{35}
+\setcounter{enumi}{4}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{5}
+\setcounter{subsection}{2}
+\setcounter{subsubsection}{4}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{23}
+\setcounter{table}{5}
+\setcounter{caption@flags}{2}
+\setcounter{continuedfloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{parentequation}{0}
+\setcounter{float@type}{4}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+\setcounter{linenumber}{0}
+\setcounter{LN@truepage}{85}
+\setcounter{tabx@nest}{0}
+\setcounter{listtotal}{0}
+\setcounter{listcount}{0}
+\setcounter{liststart}{0}
+\setcounter{liststop}{0}
+\setcounter{citecount}{0}
+\setcounter{citetotal}{0}
+\setcounter{multicitecount}{0}
+\setcounter{multicitetotal}{0}
+\setcounter{instcount}{143}
+\setcounter{maxnames}{3}
+\setcounter{minnames}{3}
+\setcounter{maxitems}{3}
+\setcounter{minitems}{1}
+\setcounter{citecounter}{0}
+\setcounter{maxcitecounter}{0}
+\setcounter{savedcitecounter}{0}
+\setcounter{uniquelist}{0}
+\setcounter{uniquename}{0}
+\setcounter{refsection}{0}
+\setcounter{refsegment}{0}
+\setcounter{maxextratitle}{0}
+\setcounter{maxextratitleyear}{0}
+\setcounter{maxextraname}{2}
+\setcounter{maxextradate}{0}
+\setcounter{maxextraalpha}{0}
+\setcounter{abbrvpenalty}{50}
+\setcounter{highnamepenalty}{50}
+\setcounter{lownamepenalty}{25}
+\setcounter{maxparens}{3}
+\setcounter{parenlevel}{0}
+\setcounter{blx@maxsection}{0}
+\setcounter{mincomprange}{10}
+\setcounter{maxcomprange}{100000}
+\setcounter{mincompwidth}{1}
+\setcounter{afterword}{0}
+\setcounter{savedafterword}{0}
+\setcounter{annotator}{0}
+\setcounter{savedannotator}{0}
+\setcounter{author}{0}
+\setcounter{savedauthor}{0}
+\setcounter{bookauthor}{0}
+\setcounter{savedbookauthor}{0}
+\setcounter{commentator}{0}
+\setcounter{savedcommentator}{0}
+\setcounter{editor}{0}
+\setcounter{savededitor}{0}
+\setcounter{editora}{0}
+\setcounter{savededitora}{0}
+\setcounter{editorb}{0}
+\setcounter{savededitorb}{0}
+\setcounter{editorc}{0}
+\setcounter{savededitorc}{0}
+\setcounter{foreword}{0}
+\setcounter{savedforeword}{0}
+\setcounter{holder}{0}
+\setcounter{savedholder}{0}
+\setcounter{introduction}{0}
+\setcounter{savedintroduction}{0}
+\setcounter{namea}{0}
+\setcounter{savednamea}{0}
+\setcounter{nameb}{0}
+\setcounter{savednameb}{0}
+\setcounter{namec}{0}
+\setcounter{savednamec}{0}
+\setcounter{translator}{0}
+\setcounter{savedtranslator}{0}
+\setcounter{shortauthor}{0}
+\setcounter{savedshortauthor}{0}
+\setcounter{shorteditor}{0}
+\setcounter{savedshorteditor}{0}
+\setcounter{labelname}{0}
+\setcounter{savedlabelname}{0}
+\setcounter{institution}{0}
+\setcounter{savedinstitution}{0}
+\setcounter{lista}{0}
+\setcounter{savedlista}{0}
+\setcounter{listb}{0}
+\setcounter{savedlistb}{0}
+\setcounter{listc}{0}
+\setcounter{savedlistc}{0}
+\setcounter{listd}{0}
+\setcounter{savedlistd}{0}
+\setcounter{liste}{0}
+\setcounter{savedliste}{0}
+\setcounter{listf}{0}
+\setcounter{savedlistf}{0}
+\setcounter{location}{0}
+\setcounter{savedlocation}{0}
+\setcounter{organization}{0}
+\setcounter{savedorganization}{0}
+\setcounter{origlocation}{0}
+\setcounter{savedoriglocation}{0}
+\setcounter{origpublisher}{0}
+\setcounter{savedorigpublisher}{0}
+\setcounter{publisher}{0}
+\setcounter{savedpublisher}{0}
+\setcounter{language}{0}
+\setcounter{savedlanguage}{0}
+\setcounter{origlanguage}{0}
+\setcounter{savedoriglanguage}{0}
+\setcounter{pageref}{0}
+\setcounter{savedpageref}{0}
+\setcounter{textcitecount}{0}
+\setcounter{textcitetotal}{0}
+\setcounter{textcitemaxnames}{0}
+\setcounter{biburlbigbreakpenalty}{100}
+\setcounter{biburlbreakpenalty}{200}
+\setcounter{biburlnumpenalty}{0}
+\setcounter{biburlucpenalty}{0}
+\setcounter{biburllcpenalty}{0}
+\setcounter{smartand}{1}
+\setcounter{bbx:relatedcount}{0}
+\setcounter{bbx:relatedtotal}{0}
+\setcounter{cbx@tempcnta}{0}
+\setcounter{cbx@tempcntb}{2}
+\setcounter{cbx@tempcntc}{0}
+\setcounter{cbx@tempcntd}{-1}
+\setcounter{section@level}{3}
+\setcounter{Item}{9}
+\setcounter{Hfootnote}{1}
+\setcounter{bookmark@seq@number}{47}
+}
