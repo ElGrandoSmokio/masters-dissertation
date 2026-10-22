@@ -1,0 +1,38 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Ideal driver current required for a given received differential swing. Reproduced from~\blx@tocontentsinit {0}\cite {palermo_ecen689_lec5}.}}{23}{table.caption.75}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Representative high-speed CML and CML-based transmitter implementations.}}{27}{table.caption.77}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces USB 3.2 Gen 2 (10\,Gbps) normative transmitter specifications}}{42}{table.caption.99}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Equalization Presets}}{46}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Enable Signal Mapping}}{47}{table.3.3}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Tap unit sizing}}{55}{table.caption.113}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Tap unit device parameters}}{63}{table.caption.122}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Equalization results across \ac {PVT} corners, expressed as \% deviation from target}}{74}{table.caption.137}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Equalization results for \ac {PVT} corners}}{74}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces $\mathrm {Z_{out, diff}}$ across \ac {PVT} and resistor corners}}{77}{table.caption.140}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Rise and fall times across \ac {PVT} corners}}{77}{table.caption.142}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces \ac {TX} and \ac {RX} eye diagram metrics at \ac {TT} for different equalization presets}}{81}{table.caption.152}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces EQ3 \ac {RX} eye diagram metrics across resistor corners at \ac {TT}}}{82}{table.caption.154}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces EQ3 \ac {RX} eye diagram metrics across resistor corners at \ac {FF}}}{83}{table.caption.156}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces EQ3 \ac {RX} eye diagram metrics across resistor corners at \ac {SS}}}{84}{table.caption.158}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Driver power consumption for EQ3}}{85}{table.caption.159}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Differential nets parasitic capacitances}}{86}{table.caption.161}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Dominant coupled net and coupling capacitance for each differential net}}{86}{table.caption.162}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Post-extraction equalization results across \ac {PVT} corners}}{88}{table.caption.165}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Post-extraction equalization results across \ac {PVT} corners, expressed as percentage deviation from target}}{89}{table.caption.166}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Post-extraction EQ1 target deviation before and after tap reconfiguration}}{90}{table.caption.168}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Post extraction $\mathrm {Z_{out, diff}}$ across \ac {PVT} and resistor corners}}{92}{table.caption.170}%
+\contentsline {table}{\numberline {4.16}{\ignorespaces Post extraction rise and fall times across \ac {PVT} corners}}{92}{table.caption.172}%
+\contentsline {table}{\numberline {4.17}{\ignorespaces Post extraction eye metrics at \ac {TT} for different equalization presets}}{99}{table.caption.178}%
+\contentsline {table}{\numberline {4.18}{\ignorespaces Post extraction EQ3 \ac {RX} eye diagram metrics across resistor corners at \ac {TT}}}{99}{table.caption.180}%
+\contentsline {table}{\numberline {4.19}{\ignorespaces Post extraction EQ3 \ac {RX} eye diagram metrics across resistor corners at \ac {FF}}}{100}{table.caption.182}%
+\contentsline {table}{\numberline {4.20}{\ignorespaces Post extraction EQ3 \ac {RX} eye diagram metrics across resistor corners at \ac {SS}}}{101}{table.caption.184}%
+\contentsline {table}{\numberline {4.21}{\ignorespaces Pre- versus post-extraction results at the \ac {TT} corner (EQ3, unless noted)}}{102}{table.caption.185}%
+\contentsline {table}{\numberline {4.22}{\ignorespaces Summary of the evaluated USB 3.2 Gen 2 transmitter electrical requirements, pre- versus post-extraction}}{103}{table.caption.186}%
+\contentsline {table}{\numberline {4.23}{\ignorespaces Comparison with representative \ac {CML} and \ac {CML}-based high-speed transmitters.}}{104}{table.caption.187}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary of the fulfillment of the dissertation objectives.}}{109}{table.caption.188}%
+\addvspace {10\p@ }

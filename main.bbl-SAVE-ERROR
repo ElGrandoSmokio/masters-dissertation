@@ -1,0 +1,818 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{baker}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1ed1b7f2179f8fa0a502cd2c7fdf2a16}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi Jacob},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-IEEE Press}%
+      }
+      \strng{namehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{fullhash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{bibnamehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{authorbibnamehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{authornamehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{authorfullhash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{978-0-470-88132-3}
+      \field{title}{CMOS: Circuit Design, Layout, and Simulation}
+      \field{year}{2010}
+    \endentry
+    \entry{razavi}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c7a8cbdc611fb566c84f257674d0a44f}{%
+           family={Razavi},
+           familyi={R\bibinitperiod},
+           given={Behzad},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{fullhash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{bibnamehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{authorbibnamehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{authornamehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{authorfullhash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-0-07-252493-2}
+      \field{title}{Design of Analog CMOS Integrated Circuits}
+      \field{year}{2017}
+    \endentry
+    \entry{dally_poulton_1998}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c4a8df92e1f8e22aa2062da8bcfd402d}{%
+           family={Dally},
+           familyi={D\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d6524a442566e4b627be715481661b86}{%
+           family={Poulton},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{eb5b6f918f0d40e4ae39961ebb43dbd9}
+      \strng{fullhash}{eb5b6f918f0d40e4ae39961ebb43dbd9}
+      \strng{bibnamehash}{eb5b6f918f0d40e4ae39961ebb43dbd9}
+      \strng{authorbibnamehash}{eb5b6f918f0d40e4ae39961ebb43dbd9}
+      \strng{authornamehash}{eb5b6f918f0d40e4ae39961ebb43dbd9}
+      \strng{authorfullhash}{eb5b6f918f0d40e4ae39961ebb43dbd9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-521-59292-5}
+      \field{title}{Digital Systems Engineering}
+      \field{year}{1998}
+    \endentry
+    \entry{yang_serial_links_1998}{report}{}
+      \name{author}{1}{}{%
+        {{hash=3ad4b445cd39744f849fed2a838176d6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chih-Kong\bibnamedelima Ken},
+           giveni={C\bibinithyphendelim K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Computer Systems Laboratory, Stanford University}%
+      }
+      \strng{namehash}{3ad4b445cd39744f849fed2a838176d6}
+      \strng{fullhash}{3ad4b445cd39744f849fed2a838176d6}
+      \strng{bibnamehash}{3ad4b445cd39744f849fed2a838176d6}
+      \strng{authorbibnamehash}{3ad4b445cd39744f849fed2a838176d6}
+      \strng{authornamehash}{3ad4b445cd39744f849fed2a838176d6}
+      \strng{authorfullhash}{3ad4b445cd39744f849fed2a838176d6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{number}{CSL-TR-98-775}
+      \field{title}{Design of High-Speed Serial Links in CMOS}
+      \field{type}{techreport}
+      \field{year}{1998}
+    \endentry
+    \entry{palermo_IO}{book}{}
+      \name{author}{1}{}{%
+        {{hash=43fa6679fd26fcdffffc756dd3ee999c}{%
+           family={Iniewski},
+           familyi={I\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{43fa6679fd26fcdffffc756dd3ee999c}
+      \strng{fullhash}{43fa6679fd26fcdffffc756dd3ee999c}
+      \strng{bibnamehash}{43fa6679fd26fcdffffc756dd3ee999c}
+      \strng{authorbibnamehash}{43fa6679fd26fcdffffc756dd3ee999c}
+      \strng{authornamehash}{43fa6679fd26fcdffffc756dd3ee999c}
+      \strng{authorfullhash}{43fa6679fd26fcdffffc756dd3ee999c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{9780071755665}
+      \field{title}{CMOS Nanoelectronics: Analog and RF VLSI Circuits}
+      \field{year}{2011}
+    \endentry
+    \entry{bogatin_SI}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9816933762c6465d16a1fad968f887e3}{%
+           family={Bogatin},
+           familyi={B\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{9816933762c6465d16a1fad968f887e3}
+      \strng{fullhash}{9816933762c6465d16a1fad968f887e3}
+      \strng{bibnamehash}{9816933762c6465d16a1fad968f887e3}
+      \strng{authorbibnamehash}{9816933762c6465d16a1fad968f887e3}
+      \strng{authornamehash}{9816933762c6465d16a1fad968f887e3}
+      \strng{authorfullhash}{9816933762c6465d16a1fad968f887e3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-0-13-234979-6}
+      \field{title}{Signal and Power Integrity---Simplified}
+      \field{year}{2010}
+    \endentry
+    \entry{layout_fundamentals}{book}{}
+      \name{author}{2}{}{%
+        {{hash=e0a8807b31b2b151648ae6b10139d6d4}{%
+           family={Lienig},
+           familyi={L\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=04efbe027c33ce0c4e3e9ba009ec5b9e}{%
+           family={Scheible},
+           familyi={S\bibinitperiod},
+           given={Juergen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Cham}%
+      }
+      \strng{namehash}{196592124f46246b73971b2b5329ccc5}
+      \strng{fullhash}{196592124f46246b73971b2b5329ccc5}
+      \strng{bibnamehash}{196592124f46246b73971b2b5329ccc5}
+      \strng{authorbibnamehash}{196592124f46246b73971b2b5329ccc5}
+      \strng{authornamehash}{196592124f46246b73971b2b5329ccc5}
+      \strng{authorfullhash}{196592124f46246b73971b2b5329ccc5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-3-030-39284-0}
+      \field{title}{Fundamentals of Layout Design for Electronic Circuits}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1007/978-3-030-39284-0
+      \endverb
+    \endentry
+    \entry{razavi_NRZ_PAM4}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f0075e6842a892f0156d83140a2ce51a}{%
+           family={Forghani},
+           familyi={F\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7a8cbdc611fb566c84f257674d0a44f}{%
+           family={Razavi},
+           familyi={R\bibinitperiod},
+           given={Behzad},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{300e3dce0d3aa655b8d61c3e658a615d}
+      \strng{fullhash}{300e3dce0d3aa655b8d61c3e658a615d}
+      \strng{bibnamehash}{300e3dce0d3aa655b8d61c3e658a615d}
+      \strng{authorbibnamehash}{300e3dce0d3aa655b8d61c3e658a615d}
+      \strng{authornamehash}{300e3dce0d3aa655b8d61c3e658a615d}
+      \strng{authorfullhash}{300e3dce0d3aa655b8d61c3e658a615d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 IEEE International Symposium on Circuits and Systems (ISCAS)}
+      \field{title}{Circuit Bandwidth Requirements for NRZ and PAM4 Signals}
+      \field{year}{2022}
+      \field{pages}{990\bibrangedash 994}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ISCAS48785.2022.9937588
+      \endverb
+    \endentry
+    \entry{zamir2018_nrz_pam4}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=04357f0befd93e86e519f94b6551a40c}{%
+           family={Roshan\bibnamedelima Zamir},
+           familyi={R\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Ashkan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Texas A\&M University}%
+      }
+      \strng{namehash}{04357f0befd93e86e519f94b6551a40c}
+      \strng{fullhash}{04357f0befd93e86e519f94b6551a40c}
+      \strng{bibnamehash}{04357f0befd93e86e519f94b6551a40c}
+      \strng{authorbibnamehash}{04357f0befd93e86e519f94b6551a40c}
+      \strng{authornamehash}{04357f0befd93e86e519f94b6551a40c}
+      \strng{authorfullhash}{04357f0befd93e86e519f94b6551a40c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{High Speed Reconfigurable NRZ/PAM4 Transceiver Design Techniques}
+      \field{type}{phdthesis}
+      \field{year}{2018}
+    \endentry
+    \entry{chen_cml_review_2026}{article}{}
+      \name{author}{4}{}{%
+        {{hash=023f828f328933228053df57fabb305b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yinghao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=39a881c8279ef1ea446f2aa1cbf2c97c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yingmei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0da4ce5465fe5aa244229a80f852e45e}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Chenghao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=383ef476f431eaf108d4a77c75c2def5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{58337a311e3131cafcd85f00e479c50b}
+      \strng{fullhash}{6b0e8fe244c302e015f0f4a16d100a5b}
+      \strng{bibnamehash}{6b0e8fe244c302e015f0f4a16d100a5b}
+      \strng{authorbibnamehash}{6b0e8fe244c302e015f0f4a16d100a5b}
+      \strng{authornamehash}{58337a311e3131cafcd85f00e479c50b}
+      \strng{authorfullhash}{6b0e8fe244c302e015f0f4a16d100a5b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics}
+      \field{number}{2}
+      \field{title}{Research Progress and Design Considerations of High-Speed Current-Mode Driver ICs}
+      \field{volume}{15}
+      \field{year}{2026}
+      \field{pages}{405}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/electronics15020405
+      \endverb
+    \endentry
+    \entry{usb32_specs}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a091613b79e228da9f1aef4916548745}{%
+           family={{USB 3.0 Promoter Group}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{a091613b79e228da9f1aef4916548745}
+      \strng{fullhash}{a091613b79e228da9f1aef4916548745}
+      \strng{bibnamehash}{a091613b79e228da9f1aef4916548745}
+      \strng{authorbibnamehash}{a091613b79e228da9f1aef4916548745}
+      \strng{authornamehash}{a091613b79e228da9f1aef4916548745}
+      \strng{authorfullhash}{a091613b79e228da9f1aef4916548745}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{{Universal Serial Bus 3.2 Specification}}
+      \field{year}{2022}
+    \endentry
+    \entry{chen_switchable_cml_2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f73b2698e7f4168654a4edbee7c493f9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peipei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ad7517ebe80619f75e6261e4aae4f0e1}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8b590681f91a575c5469e4df7e47e14b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huihua},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a69949f1a30b5fd7e7c32ef5656eb885}
+      \strng{fullhash}{a69949f1a30b5fd7e7c32ef5656eb885}
+      \strng{bibnamehash}{a69949f1a30b5fd7e7c32ef5656eb885}
+      \strng{authorbibnamehash}{a69949f1a30b5fd7e7c32ef5656eb885}
+      \strng{authornamehash}{a69949f1a30b5fd7e7c32ef5656eb885}
+      \strng{authorfullhash}{a69949f1a30b5fd7e7c32ef5656eb885}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Semiconductors}
+      \field{number}{2}
+      \field{title}{A Power-Efficient Switchable CML Driver at 10 Gbps}
+      \field{volume}{37}
+      \field{year}{2016}
+      \field{pages}{025003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1674-4926/37/2/025003
+      \endverb
+    \endentry
+    \entry{baker_mixed_signal}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1ed1b7f2179f8fa0a502cd2c7fdf2a16}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi Jacob},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-IEEE Press}%
+      }
+      \strng{namehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{fullhash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{bibnamehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{authorbibnamehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{authornamehash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \strng{authorfullhash}{1ed1b7f2179f8fa0a502cd2c7fdf2a16}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-0-470-29026-2}
+      \field{title}{CMOS: Mixed-Signal Circuit Design}
+      \field{year}{2009}
+    \endentry
+    \entry{sredojevic_jssc_2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a7455af759b2eac0f13126eaf5203849}{%
+           family={Sredojević},
+           familyi={S\bibinitperiod},
+           given={Ranko},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dba37407c0c121781172bd22354fe4a5}{%
+           family={Stojanović},
+           familyi={S\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3500c997caad1e29804f59c9580b503}
+      \strng{fullhash}{f3500c997caad1e29804f59c9580b503}
+      \strng{bibnamehash}{f3500c997caad1e29804f59c9580b503}
+      \strng{authorbibnamehash}{f3500c997caad1e29804f59c9580b503}
+      \strng{authornamehash}{f3500c997caad1e29804f59c9580b503}
+      \strng{authorfullhash}{f3500c997caad1e29804f59c9580b503}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Solid-State Circuits}
+      \field{number}{8}
+      \field{title}{Fully Digital Transmit Equalizer With Dynamic Impedance Modulation}
+      \field{volume}{46}
+      \field{year}{2011}
+      \field{pages}{1857\bibrangedash 1869}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/JSSC.2011.2151530
+      \endverb
+    \endentry
+    \entry{palermo_ecen720_lab5}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c2fd0bf1731cdd240690b75d7a3cc9e1}{%
+           family={Palermo},
+           familyi={P\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2fd0bf1731cdd240690b75d7a3cc9e1}
+      \strng{fullhash}{c2fd0bf1731cdd240690b75d7a3cc9e1}
+      \strng{bibnamehash}{c2fd0bf1731cdd240690b75d7a3cc9e1}
+      \strng{authorbibnamehash}{c2fd0bf1731cdd240690b75d7a3cc9e1}
+      \strng{authornamehash}{c2fd0bf1731cdd240690b75d7a3cc9e1}
+      \strng{authorfullhash}{c2fd0bf1731cdd240690b75d7a3cc9e1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Jul. 15, 2026}
+      \field{title}{{ECEN 720 High-Speed Links: Circuits and Systems Lab 5---Equalization Circuits}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://people.engr.tamu.edu/spalermo/ecen689/ECEN720_lab5_2025.pdf
+      \endverb
+      \verb{url}
+      \verb https://people.engr.tamu.edu/spalermo/ecen689/ECEN720_lab5_2025.pdf
+      \endverb
+    \endentry
+    \entry{chen_tx_equalizer_2009}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=98228b176c1d7ce03fc5072a2b117392}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Dianyong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2938deb5048323c6e1bfdd80975d5b28}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6cb6543dea206e49b36e9d1be12effd9}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Bangli},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ab4e10baffc8bba1856e3b83ad7f479c}{%
+           family={Kwasniewski},
+           familyi={K\bibinitperiod},
+           given={Tad},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a0e5e46eda784aab2a3eaf5e33bc219}
+      \strng{fullhash}{efffe8db24dca52b57ed83e35479bedc}
+      \strng{bibnamehash}{efffe8db24dca52b57ed83e35479bedc}
+      \strng{authorbibnamehash}{efffe8db24dca52b57ed83e35479bedc}
+      \strng{authornamehash}{6a0e5e46eda784aab2a3eaf5e33bc219}
+      \strng{authorfullhash}{efffe8db24dca52b57ed83e35479bedc}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 International Conference on Communications, Circuits and Systems (ICCCAS)}
+      \field{title}{Transmitter Equalizer Optimization for 10-Gb/s Data Transmission through Lossy Backplane}
+      \field{year}{2009}
+      \field{pages}{373\bibrangedash 376}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICCCAS.2009.5250494
+      \endverb
+    \endentry
+    \entry{xiong_vmd_2020}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4add5cc6f01f0e0e90b7ebac88b3d0b9}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Zi-Rui},
+           giveni={Z\bibinithyphendelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4add5cc6f01f0e0e90b7ebac88b3d0b9}
+      \strng{fullhash}{4add5cc6f01f0e0e90b7ebac88b3d0b9}
+      \strng{bibnamehash}{4add5cc6f01f0e0e90b7ebac88b3d0b9}
+      \strng{authorbibnamehash}{4add5cc6f01f0e0e90b7ebac88b3d0b9}
+      \strng{authornamehash}{4add5cc6f01f0e0e90b7ebac88b3d0b9}
+      \strng{authorfullhash}{4add5cc6f01f0e0e90b7ebac88b3d0b9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE 15th International Conference on Solid-State and Integrated Circuit Technology (ICSICT)}
+      \field{title}{A Low Power Voltage-Mode Driver Design for CIS Applications}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1109/ICSICT49897.2020.9278139
+      \endverb
+    \endentry
+    \entry{kossel_jssc_2008}{article}{}
+      \name{author}{9}{}{%
+        {{hash=ff1774799f979fdec348babdbf740f62}{%
+           family={Kossel},
+           familyi={K\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=771c0cd421cfb0e4367cac3fb902a11c}{%
+           family={Menolfi},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=58c7e06ae7c2e68e8074f0c9d31255d4}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aa584484f9ff17bd1e643b5a02cadcc8}{%
+           family={Buchmann},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=755c1bc5cffc258525f12bc5383d52ce}{%
+           family={Bueren},
+           familyi={B\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=3bdb450fcb5577baa6e6589cf2c2c741}{%
+           family={Rodoni},
+           familyi={R\bibinitperiod},
+           given={Lucio},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0a49f01c2b0940469b88856de4139caf}{%
+           family={Morf},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=357251a961b691b60c6d1cab35ede5fc}{%
+           family={Toifl},
+           familyi={T\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a39cec83b61b2ac1e79ef24999ae4d47}{%
+           family={Schmatz},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{44d37a6fe974d776750ccb6e4f2a8135}
+      \strng{fullhash}{559a805c3ae20ce105f4eeb2fbb20850}
+      \strng{bibnamehash}{44d37a6fe974d776750ccb6e4f2a8135}
+      \strng{authorbibnamehash}{44d37a6fe974d776750ccb6e4f2a8135}
+      \strng{authornamehash}{44d37a6fe974d776750ccb6e4f2a8135}
+      \strng{authorfullhash}{559a805c3ae20ce105f4eeb2fbb20850}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Journal of Solid-State Circuits}
+      \field{number}{12}
+      \field{title}{A T-Coil-Enhanced 8.5 Gb/s High-Swing SST Transmitter in 65 nm Bulk CMOS With -16 dB Return Loss Over 10 GHz Bandwidth}
+      \field{volume}{43}
+      \field{year}{2008}
+      \field{pages}{2905\bibrangedash 2920}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/JSSC.2008.2006230
+      \endverb
+    \endentry
+    \entry{ndjountche2011_highspeed}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bc07c2c43c0f99d4affbf4e0663c42e1}{%
+           family={Ndjountche},
+           familyi={N\bibinitperiod},
+           given={Tertulien},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{bc07c2c43c0f99d4affbf4e0663c42e1}
+      \strng{fullhash}{bc07c2c43c0f99d4affbf4e0663c42e1}
+      \strng{bibnamehash}{bc07c2c43c0f99d4affbf4e0663c42e1}
+      \strng{authorbibnamehash}{bc07c2c43c0f99d4affbf4e0663c42e1}
+      \strng{authornamehash}{bc07c2c43c0f99d4affbf4e0663c42e1}
+      \strng{authorfullhash}{bc07c2c43c0f99d4affbf4e0663c42e1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4398-5500-3}
+      \field{title}{CMOS Analog Integrated Circuits: High-Speed and Power-Efficient Design}
+      \field{year}{2011}
+    \endentry
+    \entry{analoghub}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f457edfa41e53bffc16d52ad58e530ca}{%
+           family={{AnalogHub}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f457edfa41e53bffc16d52ad58e530ca}
+      \strng{fullhash}{f457edfa41e53bffc16d52ad58e530ca}
+      \strng{bibnamehash}{f457edfa41e53bffc16d52ad58e530ca}
+      \strng{authorbibnamehash}{f457edfa41e53bffc16d52ad58e530ca}
+      \strng{authornamehash}{f457edfa41e53bffc16d52ad58e530ca}
+      \strng{authorfullhash}{f457edfa41e53bffc16d52ad58e530ca}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Jul. 20, 2026}
+      \field{title}{{Layout-Dependent Effects (LOD, WPE, Latch-Up, Electromigration, Antenna)}}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://analoghub.ie/category/Layout/article/layoutDependentEffects
+      \endverb
+      \verb{url}
+      \verb https://analoghub.ie/category/Layout/article/layoutDependentEffects
+      \endverb
+    \endentry
+    \entry{EM_inside_logic_cells}{book}{}
+      \name{author}{3}{}{%
+        {{hash=e65279d627decb0f06362306f907f4ef}{%
+           family={Posser},
+           familyi={P\bibinitperiod},
+           given={Gracieli},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1c641925000f0d902b05be08bfd54e15}{%
+           family={Sapatnekar},
+           familyi={S\bibinitperiod},
+           given={Sachin\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e01ab5989b7c5a875443a0ab19f121e4}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Cham}%
+      }
+      \strng{namehash}{b9d27eec27c4e5689ea6317718f02d02}
+      \strng{fullhash}{b9d27eec27c4e5689ea6317718f02d02}
+      \strng{bibnamehash}{b9d27eec27c4e5689ea6317718f02d02}
+      \strng{authorbibnamehash}{b9d27eec27c4e5689ea6317718f02d02}
+      \strng{authornamehash}{b9d27eec27c4e5689ea6317718f02d02}
+      \strng{authorfullhash}{b9d27eec27c4e5689ea6317718f02d02}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-3-319-48899-8}
+      \field{title}{Electromigration Inside Logic Cells}
+      \field{year}{2016}
+    \endentry
+    \entry{black_EM}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d53f82c00b2d7a8ed5ff12ac395715e3}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d53f82c00b2d7a8ed5ff12ac395715e3}
+      \strng{fullhash}{d53f82c00b2d7a8ed5ff12ac395715e3}
+      \strng{bibnamehash}{d53f82c00b2d7a8ed5ff12ac395715e3}
+      \strng{authorbibnamehash}{d53f82c00b2d7a8ed5ff12ac395715e3}
+      \strng{authornamehash}{d53f82c00b2d7a8ed5ff12ac395715e3}
+      \strng{authorfullhash}{d53f82c00b2d7a8ed5ff12ac395715e3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Electron Devices}
+      \field{number}{4}
+      \field{title}{Electromigration---A Brief Survey and Some Recent Results}
+      \field{volume}{16}
+      \field{year}{1969}
+      \field{pages}{338\bibrangedash 347}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/T-ED.1969.16754
+      \endverb
+    \endentry
+    \entry{rzepka_self_heating_1998}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c2810ed30d271efc73b4efb71e419fb1}{%
+           family={Rzepka},
+           familyi={R\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1964b0877190132efbebb17b0d073078}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Kaustav},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4051930496bd0cb14098878bb7109b38}{%
+           family={Meusel},
+           familyi={M\bibinitperiod},
+           given={Ekkehard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=677f8a7a01634c401377d24c3bd896c6}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Chenming},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4b5c148b55319b7f1c446335614f29b}
+      \strng{fullhash}{01d397e1dbde4bbbff860962373c7808}
+      \strng{bibnamehash}{01d397e1dbde4bbbff860962373c7808}
+      \strng{authorbibnamehash}{01d397e1dbde4bbbff860962373c7808}
+      \strng{authornamehash}{b4b5c148b55319b7f1c446335614f29b}
+      \strng{authorfullhash}{01d397e1dbde4bbbff860962373c7808}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Components, Packaging, and Manufacturing Technology---Part A}
+      \field{number}{3}
+      \field{title}{Characterization of Self-Heating in Advanced VLSI Interconnect Lines Based on Thermal Finite Element Simulation}
+      \field{volume}{21}
+      \field{year}{1998}
+      \field{pages}{406\bibrangedash 411}
+      \range{pages}{6}
+    \endentry
+    \entry{TI_latchup}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d020997447557b05b31052482772e9dd}{%
+           family={{Kameron Hill}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d020997447557b05b31052482772e9dd}
+      \strng{fullhash}{d020997447557b05b31052482772e9dd}
+      \strng{bibnamehash}{d020997447557b05b31052482772e9dd}
+      \strng{authorbibnamehash}{d020997447557b05b31052482772e9dd}
+      \strng{authornamehash}{d020997447557b05b31052482772e9dd}
+      \strng{authorfullhash}{d020997447557b05b31052482772e9dd}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Jul. 20, 2026}
+      \field{title}{{[FAQ] What is Latch up in CMOS Devices and How can Latch up Immune Multiplexers Improve System Reliability?}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://e2e.ti.com/support/switches-multiplexers-group/switches-multiplexers/f/switches-multiplexers-forum/1307572/faq-what-is-latch-up-in-cmos-devices-and-how-can-latch-up-immune-multiplexers-improve-system-reliability
+      \endverb
+      \verb{url}
+      \verb https://e2e.ti.com/support/switches-multiplexers-group/switches-multiplexers/f/switches-multiplexers-forum/1307572/faq-what-is-latch-up-in-cmos-devices-and-how-can-latch-up-immune-multiplexers-improve-system-reliability
+      \endverb
+    \endentry
+    \entry{usbif_channel_model}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=109f9e5e8d3391c90c982d3dca1ba799}{%
+           family={{USB Implementers Forum}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{fullhash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{bibnamehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{authorbibnamehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{authornamehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{authorfullhash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: May 2, 2026}
+      \field{title}{{USB 3.2 Embedding Files}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://usb.org/document-library/usb-32-embedding-files
+      \endverb
+      \verb{url}
+      \verb https://usb.org/document-library/usb-32-embedding-files
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

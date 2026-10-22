@@ -1,0 +1,88 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Communication link interfaces}}{6}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Differential signaling. Reproduced from \blx@tocontentsinit {0}\cite {layout_fundamentals}}}{7}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces NRZ waveform}}{7}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Power spectral density of a \ac {NRZ} signal}}{8}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces NRZ and PAM4}}{8}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces USB 3.2 layers. Reproduced from \blx@tocontentsinit {0}\cite {usb32_specs}}}{9}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Power spectral density of a \ac {NRZ} signal with a low-pass filter applied}}{11}{figure.caption.58}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Jitter example}}{13}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Slew rate example}}{14}{figure.caption.62}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Two-port network representation}}{14}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces S-parameter representation of a two-port network}}{15}{figure.caption.65}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Eye diagram construction}}{16}{figure.caption.66}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Channel response. Reproduced from \blx@tocontentsinit {0}\cite {palermo_ecen720_lab5}}}{17}{figure.caption.67}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces 3-tap \ac {TX} Equalizer Structure}}{19}{figure.caption.70}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Differential driver functional models}}{21}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces \ac {TX} driver topologies}}{23}{figure.caption.74}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces IC Design Flowchart}}{28}{figure.caption.79}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Wafer gradient impact on devices}}{30}{figure.caption.82}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Matching Patterns}}{31}{figure.caption.83}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces \ac {WPE} effect on the devices. Adapted from \blx@tocontentsinit {0}\cite {analoghub}}}{32}{figure.caption.84}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces \ac {LOD} effect on the devices. Adapted from \blx@tocontentsinit {0}\cite {analoghub}}}{33}{figure.caption.88}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Parasitic capacitances between different metal layers}}{34}{figure.caption.89}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Example showing asymmetric differential routing}}{38}{figure.caption.92}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Example of a latch-up event. Reproduced from~\blx@tocontentsinit {0}\cite {TI_latchup}.}}{39}{figure.caption.94}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces High level \ac {CML} \ac {TX} driver diagram}}{42}{figure.caption.100}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Example output waveform provided in the USB 3.2 specification. Reproduced from \blx@tocontentsinit {0}\cite {usb32_specs}}}{44}{figure.caption.101}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \ac {TX} and \ac {RX} termination currents}}{45}{figure.caption.102}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Tap current flow}}{46}{figure.caption.103}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Tap unit schematic}}{48}{figure.caption.104}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Differential pair and current mirror node voltages}}{50}{figure.caption.105}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mirror $I_D$ versus $V_{DS}$ for varying device lengths and finger counts}}{51}{figure.caption.106}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces $\frac {gm}{Id}$ versus $V_{OV}$}}{51}{figure.caption.108}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Differential pair $I_{D}$, $V_{DS,mirror}$ and $V_{tail}$ versus $V_{in,CM}$ for varying device finger counts}}{53}{figure.caption.110}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces $I_{D}$ of both steering devices}}{54}{figure.caption.111}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces $I_{D,P}$ for current enable signals}}{55}{figure.caption.112}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Conceptual structure of reference and target circuits. Adapted from \blx@tocontentsinit {0}\cite {razavi}}}{56}{figure.caption.114}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces CML with a diode-connected reference generator}}{56}{figure.caption.116}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \ac {CML} with a replica reference generator}}{58}{figure.caption.117}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Tap Unit current control high-level view}}{59}{figure.caption.118}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Driver layout floorplan}}{60}{figure.caption.119}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Example of a non-abutted and abutted layout}}{61}{figure.caption.120}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Final tap unit schematic}}{62}{figure.caption.121}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces \ac {RVT} devices floorplan}}{64}{figure.caption.123}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Example of adjacent cell abutting using dummies}}{65}{figure.caption.124}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces \ac {SLVT} devices floorplan}}{66}{figure.caption.125}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces PMOS devices and resistors floorplan}}{67}{figure.caption.126}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces High-level representation of the tap unit floorplan}}{68}{figure.caption.127}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Driver testbench schematic}}{71}{figure.caption.131}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Starting EQ0 output differential voltage for all three \ac {PVT} corners}}{73}{figure.caption.135}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Modified EQ0 output differential voltage for all three \ac {PVT} corners}}{73}{figure.caption.136}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sweep of each tap $I_{SS}$ for their enable signals}}{75}{figure.caption.138}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Differential output impedance across corners and bank configurations}}{76}{figure.caption.139}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Rise and fall times across \ac {PVT} corners}}{77}{figure.caption.141}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Channel model $\mathrm {S_{21}}$}}{78}{figure.caption.146}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Eye diagrams for EQ0 at corner \ac {TT}}}{79}{figure.caption.147}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Eye diagrams for EQ1 at corner \ac {TT}}}{79}{figure.caption.148}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Eye diagrams for EQ2 at corner \ac {TT}}}{80}{figure.caption.149}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Eye diagrams for EQ3 at corner \ac {TT}}}{80}{figure.caption.150}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Eye diagrams for EQ4 at corner \ac {TT}}}{81}{figure.caption.151}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces EQ3 eye diagrams for resistor corners at \ac {TT}}}{82}{figure.caption.153}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces EQ3 eye diagrams for resistor corners at \ac {FF}}}{83}{figure.caption.155}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces EQ3 eye diagrams for resistor corners at \ac {SS}}}{84}{figure.caption.157}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Complete driver layout }}{85}{figure.caption.160}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Differential pair input and output routing}}{87}{figure.caption.163}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Differential output voltage swing across \ac {PVT} corners for EQ0}}{88}{figure.caption.164}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Starting and tuned differential output for \ac {PVT} corners}}{90}{figure.caption.167}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Post extraction differential output impedance across corners and bank configurations}}{91}{figure.caption.169}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Rise and fall times across \ac {PVT} corners}}{92}{figure.caption.171}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Post extraction eye diagrams for EQ0 at corner \ac {TT}}}{94}{figure.caption.173}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Post extraction eye diagrams for EQ1 at corner \ac {TT}}}{95}{figure.caption.174}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Post extraction eye diagrams for EQ2 at corner \ac {TT}}}{96}{figure.caption.175}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Post extraction eye diagrams for EQ3 at corner \ac {TT}}}{97}{figure.caption.176}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Post extraction eye diagrams for EQ4 at corner \ac {TT}}}{98}{figure.caption.177}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Post extraction EQ3 eye diagrams for resistor corners at \ac {TT}}}{99}{figure.caption.179}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Post extraction EQ3 eye diagrams for resistor corners at \ac {FF}}}{100}{figure.caption.181}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Post extraction EQ3 eye diagrams for resistor corners at \ac {SS}}}{101}{figure.caption.183}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Layout of the tap unit standard cell}}{119}{figure.caption.191}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Annotated layout of the tap unit standard cell}}{120}{figure.caption.192}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Global layout of the driver}}{121}{figure.caption.193}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Annotated global layout of the driver}}{122}{figure.caption.194}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Driver layout floorplan}}{123}{figure.caption.195}%

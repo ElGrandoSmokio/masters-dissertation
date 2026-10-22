@@ -1,0 +1,87 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Context and Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Main Design Requirements}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Methodology}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Main Contributions}{3}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Dissertation Organization}{4}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Background and Fundamental Concepts}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Communication Links}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Parallel and Serial Communication Links}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Single-Ended and Differential Signaling}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Non Return to Zero Encoding}{7}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}\acs {USB} Standard}{9}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}\acs {USB} 3.2 \acs {PHY} Layer}{10}{subsubsection.2.1.4.1}%
+\contentsline {section}{\numberline {2.2}Signal Integrity}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Inter-Symbol Interference}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Transmission Lines and Channel Characterization}{11}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Insertion Loss}{11}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Return Loss}{12}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Impedance Matching}{12}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.2.4}Jitter}{12}{subsubsection.2.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.2.5}Slew Rate}{13}{subsubsection.2.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.3}Scattering Parameters and Channel Characterization}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Signal Integrity Metrics}{15}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Eye Diagram}{15}{subsubsection.2.2.4.1}%
+\contentsline {section}{\numberline {2.3}Equalization}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Transmitter-Side Equalization}{17}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}\acs *{FFE} and the 3-Tap \acs *{FIR} Architecture}{18}{subsubsection.2.3.1.1}%
+\contentsline {section}{\numberline {2.4}Transmitter Drivers}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Driver Architectures}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Comparison Between Architectures}{22}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}State of the Art in High-Speed \acs *{CML} Transmitters}{25}{section.2.5}%
+\contentsline {section}{\numberline {2.6}\acs *{IC} Design Methodology}{27}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Layout}{29}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Device Sizing and Matching}{30}{subsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.1.1}Matching Techniques}{31}{subsubsection.2.7.1.1}%
+\contentsline {subsubsection}{\numberline {2.7.1.2}Well Proximity Effect}{32}{subsubsection.2.7.1.2}%
+\contentsline {subsubsection}{\numberline {2.7.1.3}Length of Diffusion Effect}{32}{subsubsection.2.7.1.3}%
+\contentsline {subsection}{\numberline {2.7.2}Routing and Signal Integrity}{33}{subsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.7.2.1}IR Drop}{34}{subsubsection.2.7.2.1}%
+\contentsline {subsubsection}{\numberline {2.7.2.2}Parasitic Capacitances}{34}{subsubsection.2.7.2.2}%
+\contentsline {subsubsection}{\numberline {2.7.2.3}Electromigration}{35}{subsubsection.2.7.2.3}%
+\contentsline {subsubsection}{\numberline {2.7.2.4}Differential Signaling and Routing Symmetry}{37}{subsubsection.2.7.2.4}%
+\contentsline {subsubsection}{\numberline {2.7.2.5}Latch-Up}{38}{subsubsection.2.7.2.5}%
+\contentsline {section}{\numberline {2.8}Chapter Summary}{39}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Proposed Transmitter Architecture and Development}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}\acs *{USB} 3.2 Transmitter Specifications}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Overall Driver Architecture}{42}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Transmitter Equalization}{43}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Equalization Settings}{45}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Equalization Presets and Current Requirements}{46}{subsubsection.3.3.1.1}%
+\contentsline {section}{\numberline {3.4}Driver Implementation}{48}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Tap Unit}{48}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Tap Unit Sizing and Biasing}{49}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Current Mirror Biasing Circuit}{55}{subsubsection.3.4.2.1}%
+\contentsline {subsection}{\numberline {3.4.3}Configurable Current Source}{58}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Configurable Termination}{59}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Layout}{60}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Tap Unit Cell Layout}{62}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Standard Cell Floorplan Design}{62}{subsubsection.3.5.1.1}%
+\contentsline {subsection}{\numberline {3.5.2}Standard Cell Routing}{66}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}Enable Signal Routing}{67}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}Reference Voltage Routing}{68}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}Differential Signal Routing}{68}{subsubsection.3.5.2.3}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}Electromigration Considerations}{69}{subsubsection.3.5.2.4}%
+\contentsline {chapter}{\numberline {4}Verification and Results}{71}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Verification Methodology}{71}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Driver Performance}{72}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Output Impedance Across PVT and Resistor Corners}{75}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Signal Integrity}{77}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Power Consumption}{84}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Post Extraction Results}{85}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Extracted Parasitic Capacitance and Coupling Analysis}{86}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Dominant Net-to-Net Coupling}{86}{subsubsection.4.3.1.1}%
+\contentsline {subsection}{\numberline {4.3.2}Post Extraction Performance}{88}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Pre and Post Extraction Comparison}{101}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Evaluation Against USB 3.2 Gen 2 Electrical Requirements}{103}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Comparison with the State of the Art}{104}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{107}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of the Developed Work}{107}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Fulfillment of the Objectives}{109}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Limitations}{110}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Future Work}{112}{section.5.4}%
+\contentsline {chapter}{References}{115}{section*.189}%
+\contentsline {chapter}{\numberline {A}}{118}{appendix.A}%
