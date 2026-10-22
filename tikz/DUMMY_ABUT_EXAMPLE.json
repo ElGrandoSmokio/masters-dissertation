@@ -1,0 +1,767 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "rect",
+            "position": {
+                "x": 382.677,
+                "y": -132.283
+            },
+            "fill": {
+                "color": "rgb(128,128,128)",
+                "opacity": 0.13
+            },
+            "stroke": {
+                "color": "rgb(128,128,128)",
+                "opacity": 0
+            },
+            "size": {
+                "x": 255.118,
+                "y": 264.567
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 127.559,
+                "y": -132.284
+            },
+            "fill": {
+                "color": "rgb(128,128,128)",
+                "opacity": 0.28
+            },
+            "stroke": {
+                "color": "rgb(128,128,128)",
+                "opacity": 0
+            },
+            "size": {
+                "x": 255.118,
+                "y": 264.567
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 255.118,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(255,0,0)"
+            },
+            "stroke": {
+                "color": "rgb(255,0,0)"
+            },
+            "size": {
+                "x": 491.339,
+                "y": 37.795
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 255.118,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,0,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 330.709,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,0,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 292.913,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,255,0)"
+            },
+            "stroke": {
+                "color": "rgb(0,255,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 113.386
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 368.504,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,255,0)"
+            },
+            "stroke": {
+                "color": "rgb(0,255,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 113.386
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 406.299,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,0,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 292.913,
+                "y": -184.252
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "VSS",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 368.504,
+                "y": -184.252
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "VSS",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 444.094,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,255,0)"
+            },
+            "stroke": {
+                "color": "rgb(0,255,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 113.386
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 481.89,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,0,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 217.323,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,255,0)"
+            },
+            "stroke": {
+                "color": "rgb(0,255,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 113.386
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 179.528,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,0,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 330.709,
+                "y": -146.457
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "VSS",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 406.299,
+                "y": -146.457
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "TAIL",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 444.094,
+                "y": -184.252
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "en<4>",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 481.89,
+                "y": -146.457
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "X",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 255.118,
+                    "y": -264.567
+                },
+                {
+                    "x": 255.118,
+                    "y": 0
+                }
+            ],
+            "stroke": {
+                "opacity": 0.45,
+                "style": "dashed"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 217.323,
+                "y": -184.252
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "VSS",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 141.732,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,255,0)"
+            },
+            "stroke": {
+                "color": "rgb(0,255,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 113.386
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 141.732,
+                "y": -184.252
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "VSS",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 103.937,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,0,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 174.803,
+                "y": -146.457
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "VSS",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 103.937,
+                "y": -146.457
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "TAIL",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 28.346,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,0,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 66.142,
+                "y": -113.386
+            },
+            "fill": {
+                "color": "rgb(0,255,0)"
+            },
+            "stroke": {
+                "color": "rgb(0,255,0)"
+            },
+            "size": {
+                "x": 18.898,
+                "y": 113.386
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 66.142,
+                "y": -184.252
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "en<5>",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 28.346,
+                "y": -146.457
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "X",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 255.118,
+                "y": -146.457
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "VSS",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 103.937,
+                    "y": -47.244
+                },
+                {
+                    "x": 103.937,
+                    "y": -37.795
+                },
+                {
+                    "x": 255.118,
+                    "y": -37.795
+                },
+                {
+                    "x": 255.118,
+                    "y": -47.244
+                }
+            ],
+            "directions": [
+                "--",
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 179.528,
+                "y": -23.622
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "Dummy",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 255.118,
+                    "y": -47.244
+                },
+                {
+                    "x": 255.118,
+                    "y": -37.796
+                },
+                {
+                    "x": 406.299,
+                    "y": -37.795
+                },
+                {
+                    "x": 406.299,
+                    "y": -47.244
+                }
+            ],
+            "directions": [
+                "--",
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 330.709,
+                "y": -23.622
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "Dummy",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 28.346,
+                    "y": -47.244
+                },
+                {
+                    "x": 28.346,
+                    "y": -37.795
+                },
+                {
+                    "x": 103.937,
+                    "y": -37.796
+                },
+                {
+                    "x": 103.937,
+                    "y": -47.244
+                }
+            ],
+            "directions": [
+                "--",
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 66.142,
+                "y": -23.622
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "SW5B",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 406.299,
+                    "y": -47.244
+                },
+                {
+                    "x": 406.299,
+                    "y": -37.796
+                },
+                {
+                    "x": 481.889,
+                    "y": -37.796
+                },
+                {
+                    "x": 481.889,
+                    "y": -47.244
+                }
+            ],
+            "directions": [
+                "--",
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 444.094,
+                "y": -23.623
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 47.244,
+                "y": 28.346
+            },
+            "text": {
+                "text": "SW4B",
+                "align": 1,
+                "justify": 0,
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 127.559,
+                "y": -240.945
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 160.63,
+                "y": 28.346
+            },
+            "text": {
+                "text": "POST_TAP<0>",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "Large",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 382.677,
+                "y": -240.945
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 160.63,
+                "y": 28.346
+            },
+            "text": {
+                "text": "POST_TAP<2>",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "Large",
+                "showPlaceholderText": true
+            }
+        }
+    ]
+}

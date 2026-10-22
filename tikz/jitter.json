@@ -1,0 +1,484 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": -151.181,
+                    "y": -75.591
+                },
+                {
+                    "x": -151.181,
+                    "y": -75.591
+                },
+                {
+                    "x": -94.488,
+                    "y": -75.591
+                },
+                {
+                    "x": -75.591,
+                    "y": -75.591
+                },
+                {
+                    "x": -75.591,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": -75.591
+                },
+                {
+                    "x": 75.591,
+                    "y": -75.591
+                },
+                {
+                    "x": 75.591,
+                    "y": 0
+                },
+                {
+                    "x": 151.181,
+                    "y": 0
+                }
+            ],
+            "directions": [
+                null,
+                null,
+                "-|",
+                null,
+                "-|",
+                "|-",
+                "-|",
+                null,
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": -9.449,
+                    "y": 0
+                },
+                {
+                    "x": -9.449,
+                    "y": -75.591
+                },
+                {
+                    "x": -4.724,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": -4.724,
+                    "y": 0
+                },
+                {
+                    "x": -4.724,
+                    "y": -75.591
+                },
+                {
+                    "x": 0,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 4.724,
+                    "y": 0
+                },
+                {
+                    "x": 4.724,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 9.449,
+                    "y": -75.591
+                },
+                {
+                    "x": 4.724,
+                    "y": 0
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 75.591,
+                    "y": 0
+                },
+                {
+                    "x": 70.866,
+                    "y": 0
+                },
+                {
+                    "x": 70.866,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|",
+                "|-"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 66.142,
+                    "y": -75.591
+                },
+                {
+                    "x": 66.142,
+                    "y": 0
+                },
+                {
+                    "x": 70.866,
+                    "y": 0
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "|-",
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 75.591,
+                    "y": -75.591
+                },
+                {
+                    "x": 80.315,
+                    "y": -75.591
+                },
+                {
+                    "x": 80.315,
+                    "y": 0
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 85.039,
+                    "y": 0
+                },
+                {
+                    "x": 85.039,
+                    "y": -75.591
+                },
+                {
+                    "x": 80.315,
+                    "y": -75.591
+                }
+            ],
+            "stroke": {
+                "width": "0.6pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|",
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": -115.748,
+                "y": -42.52
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 70.866,
+                "y": 35.433
+            },
+            "text": {
+                "text": "Reference edge",
+                "justify": 0,
+                "fontSize": "footnotesize",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": -113.386,
+                    "y": -42.52
+                },
+                {
+                    "x": -75.591,
+                    "y": -42.52
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "0.4pt"
+            },
+            "directions": [
+                null
+            ],
+            "endArrow": "stealth"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": -75.591,
+                    "y": 4.724
+                },
+                {
+                    "x": 0,
+                    "y": 4.724
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "0.4pt"
+            },
+            "directions": [
+                null
+            ],
+            "startArrow": "stealth",
+            "endArrow": "stealth"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": -37.795,
+                "y": 12.992
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 75.591,
+                "y": 30.709
+            },
+            "text": {
+                "text": "Unit interval",
+                "justify": 0,
+                "fontSize": "scriptsize",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 42.52,
+                "y": -43.701
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 51.969,
+                "y": 54.331
+            },
+            "text": {
+                "text": "Ideal event timing",
+                "justify": 0,
+                "fontSize": "scriptsize",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 51.969,
+                    "y": -37.795
+                },
+                {
+                    "x": 75.591,
+                    "y": -37.795
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "0.6pt"
+            },
+            "directions": [
+                "-|"
+            ],
+            "endArrow": "stealth"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 23.622,
+                    "y": -37.795
+                },
+                {
+                    "x": 0,
+                    "y": -37.795
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "0.6pt"
+            },
+            "directions": [
+                "-|"
+            ],
+            "endArrow": "stealth"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": -9.449,
+                    "y": -75.591
+                },
+                {
+                    "x": -9.449,
+                    "y": -94.488
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "0.6pt"
+            },
+            "directions": [
+                null
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 9.449,
+                    "y": -75.591
+                },
+                {
+                    "x": 9.449,
+                    "y": -94.488
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "0.6pt"
+            },
+            "directions": [
+                null
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 9.449,
+                    "y": -89.764
+                },
+                {
+                    "x": -9.449,
+                    "y": -89.764
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "0.6pt"
+            },
+            "directions": [
+                "-|"
+            ],
+            "startArrow": "stealth",
+            "endArrow": "stealth"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 0,
+                "y": -99.213
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 37.796,
+                "y": 18.898
+            },
+            "text": {
+                "text": "Jitter",
+                "justify": 0,
+                "fontSize": "scriptsize",
+                "showPlaceholderText": true
+            }
+        }
+    ]
+}

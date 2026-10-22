@@ -1,0 +1,278 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "rect",
+            "position": {
+                "x": 37.795,
+                "y": -66.142
+            },
+            "size": {
+                "x": 75.591,
+                "y": 56.693
+            },
+            "text": {
+                "text": "Copy \nCircuit",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 170.079,
+                "y": -133.04
+            },
+            "size": {
+                "x": 75.591,
+                "y": 75.591
+            },
+            "text": {
+                "text": "Analog\nCircuit",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large"
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 170.079,
+                "y": -66.142
+            },
+            "id": "nmos"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 170.079,
+                "y": -14.173
+            },
+            "id": "vee"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 37.795,
+                "y": -14.173
+            },
+            "id": "vee"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 37.795,
+                    "y": -179.528
+                },
+                {
+                    "x": 37.795,
+                    "y": -108.661
+                }
+            ],
+            "label": {
+                "value": "\\mathrm{I_{REF}}"
+            },
+            "id": "american current source",
+            "scale": {
+                "x": 0.85,
+                "y": 0.85
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 37.795,
+                "y": -179.528
+            },
+            "id": "vcc"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 170.079,
+                "y": -180.284
+            },
+            "id": "vcc"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 170.079,
+                    "y": -180.284
+                },
+                {
+                    "x": 170.079,
+                    "y": -170.835
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 170.079,
+                    "y": -13.417
+                },
+                {
+                    "x": 170.079,
+                    "y": -37.039
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 37.795,
+                    "y": -14.173
+                },
+                {
+                    "x": 37.795,
+                    "y": -37.795
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                null
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 75.591,
+                    "y": -66.142
+                },
+                {
+                    "x": 133.04,
+                    "y": -66.142
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 37.795,
+                    "y": -108.661
+                },
+                {
+                    "x": 37.795,
+                    "y": -94.488
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 42.52,
+                    "y": -33.071
+                },
+                {
+                    "x": 42.52,
+                    "y": -9.449
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 56.693,
+                "y": -21.26
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 28.346,
+                "y": 14.173
+            },
+            "text": {
+                "text": "$I_{REF}$",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "scriptsize",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 174.803,
+                    "y": -35.433
+                },
+                {
+                    "x": 174.803,
+                    "y": -11.811
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 188.976,
+                "y": -23.622
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 28.346,
+                "y": 14.173
+            },
+            "text": {
+                "text": "$I_{COPY}$",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "scriptsize",
+                "showPlaceholderText": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,440 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "node",
+            "label": {
+                "value": "Z_0",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 42.52,
+                "y": -152.362
+            },
+            "id": "tlinestub"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 14.173,
+                    "y": -152.362
+                },
+                {
+                    "x": 14.173,
+                    "y": -114.567
+                }
+            ],
+            "id": "opening switch"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 47.244,
+                "y": -100.394
+            },
+            "id": "tlinestub"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 203.15,
+                    "y": -152.362
+                },
+                {
+                    "x": 203.15,
+                    "y": -213.78
+                }
+            ],
+            "label": {
+                "value": "R"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.75,
+                "y": 0.75
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 165.354,
+                    "y": -100.394
+                },
+                {
+                    "x": 212.599,
+                    "y": -100.394
+                }
+            ],
+            "stroke": {
+                "width": "0.8pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 240.945,
+                "y": -124.016
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 56.693,
+                "y": 37.795
+            },
+            "text": {
+                "text": "$V_{diff}$",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "small",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "+",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 259.843,
+                "y": -152.362
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 14.173,
+                "y": 11.811
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "-",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 222.047,
+                "y": -100.394
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 14.173,
+                "y": 14.173
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 203.15,
+                "y": -213.78
+            },
+            "rotation": -180,
+            "id": "vee"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 203.15,
+                    "y": -152.362
+                },
+                {
+                    "x": 250.395,
+                    "y": -152.362
+                }
+            ],
+            "stroke": {
+                "width": "0.8pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": -23.622,
+                    "y": -100.205
+                },
+                {
+                    "x": -23.622,
+                    "y": -62.41
+                }
+            ],
+            "id": "closing switch",
+            "scale": {
+                "x": -1,
+                "y": 1
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 51.969,
+                    "y": -86.22
+                },
+                {
+                    "x": 103.937,
+                    "y": -86.22
+                }
+            ],
+            "stroke": {
+                "width": "1.1pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "startArrow": "latex"
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "I",
+                "anchor": "center",
+                "position": "center",
+                "relativeToComponent": true
+            },
+            "position": {
+                "x": 75.591,
+                "y": -76.772
+            },
+            "rotation": -180,
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 28.346,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "short",
+            "points": [
+                {
+                    "x": 42.52,
+                    "y": -152.362
+                },
+                {
+                    "x": 14.174,
+                    "y": -152.362
+                }
+            ],
+            "poles": {
+                "end": "circ"
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 203.15,
+                    "y": -152.362
+                },
+                {
+                    "x": 94.489,
+                    "y": -152.362
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                null
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 165.354,
+                    "y": -100.394
+                },
+                {
+                    "x": 165.354,
+                    "y": -161.812
+                }
+            ],
+            "label": {
+                "value": "R"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.75,
+                "y": 0.75
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 165.354,
+                "y": -161.811
+            },
+            "rotation": -180,
+            "id": "vee"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 165.354,
+                    "y": -100.394
+                },
+                {
+                    "x": 99.213,
+                    "y": -100.394
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "short",
+            "points": [
+                {
+                    "x": 47.244,
+                    "y": -100.394
+                },
+                {
+                    "x": -23.622,
+                    "y": -100.394
+                }
+            ],
+            "poles": {
+                "end": "circ"
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 14.173,
+                    "y": -152.362
+                },
+                {
+                    "x": 14.173,
+                    "y": -213.78
+                }
+            ],
+            "label": {
+                "value": "R"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.75,
+                "y": 0.75
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 14.173,
+                "y": -213.779
+            },
+            "rotation": -180,
+            "id": "vee"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": -23.622,
+                    "y": -100.394
+                },
+                {
+                    "x": -23.622,
+                    "y": -161.812
+                }
+            ],
+            "label": {
+                "value": "R"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.75,
+                "y": 0.75
+            }
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": -23.622,
+                "y": -161.811
+            },
+            "rotation": -180,
+            "id": "vee"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 0,
+                    "y": -95.669
+                },
+                {
+                    "x": 0,
+                    "y": -15.354
+                }
+            ],
+            "label": {
+                "value": "I_{S}"
+            },
+            "id": "american current source",
+            "scale": {
+                "x": 0.68,
+                "y": 0.68
+            },
+            "poles": {
+                "start": "circ"
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": -23.622,
+                    "y": -62.41
+                },
+                {
+                    "x": 14.173,
+                    "y": -114.567
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 0,
+                "y": -15.354
+            },
+            "id": "vee"
+        }
+    ]
+}

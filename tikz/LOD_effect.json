@@ -1,0 +1,1194 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "rect",
+            "position": {
+                "x": 460.629,
+                "y": -307.087
+            },
+            "fill": {
+                "color": "rgb(255,255,128)"
+            },
+            "size": {
+                "x": 804.726,
+                "y": 151.181
+            },
+            "text": {
+                "text": "p-substrate",
+                "align": 1,
+                "justify": 1,
+                "fontSize": "Large"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 381.101,
+                "y": -338.583
+            },
+            "fill": {
+                "color": "rgb(187,45,166)"
+            },
+            "size": {
+                "x": 563.78,
+                "y": 88.189
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 675.59,
+                "y": -329.134
+            },
+            "fill": {
+                "color": "rgb(10,239,130)"
+            },
+            "size": {
+                "x": 28.346,
+                "y": 107.087
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 85.038,
+                "y": -329.134
+            },
+            "fill": {
+                "color": "rgb(10,239,130)"
+            },
+            "size": {
+                "x": 28.346,
+                "y": 107.087
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 121.259,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(255,34,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "n+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 637.794,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(255,34,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "n+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 218.896,
+                "y": -392.126
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 177.951,
+                    "y": -382.677
+                },
+                {
+                    "x": 177.951,
+                    "y": -376.378
+                },
+                {
+                    "x": 259.841,
+                    "y": -370.079
+                },
+                {
+                    "x": 259.841,
+                    "y": -382.677
+                }
+            ],
+            "fill": {
+                "color": "rgb(0,0,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 165.353,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 272.44,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 540.156,
+                "y": -392.126
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 499.211,
+                    "y": -382.677
+                },
+                {
+                    "x": 499.211,
+                    "y": -376.378
+                },
+                {
+                    "x": 581.101,
+                    "y": -370.079
+                },
+                {
+                    "x": 581.101,
+                    "y": -382.677
+                }
+            ],
+            "fill": {
+                "color": "rgb(0,0,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 486.613,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 593.7,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 382.676,
+                "y": -392.126
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 341.731,
+                    "y": -382.677
+                },
+                {
+                    "x": 341.731,
+                    "y": -376.378
+                },
+                {
+                    "x": 423.621,
+                    "y": -370.079
+                },
+                {
+                    "x": 423.621,
+                    "y": -382.677
+                }
+            ],
+            "fill": {
+                "color": "rgb(0,0,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 329.133,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 436.22,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 674.015,
+                "y": -329.134
+            },
+            "rotation": 90,
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 81.89,
+                "y": 37.795
+            },
+            "text": {
+                "text": "STI",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "LARGE",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 85.038,
+                "y": -329.134
+            },
+            "rotation": 90,
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 81.89,
+                "y": 37.795
+            },
+            "text": {
+                "text": "STI",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "LARGE",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 220.472,
+                "y": -338.582
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Dummy",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "color": "#ffffff",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 381.101,
+                "y": -341.732
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Device B",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "color": "#ffffff",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 541.732,
+                "y": -341.732
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Dummy",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "color": "#ffffff",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 99.211,
+                    "y": -382.677
+                },
+                {
+                    "x": 99.211,
+                    "y": -4.725
+                }
+            ],
+            "stroke": {
+                "color": "rgb(0,0,0)",
+                "width": "1.4pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 661.417,
+                    "y": -382.677
+                },
+                {
+                    "x": 661.417,
+                    "y": -4.724
+                }
+            ],
+            "stroke": {
+                "color": "rgb(0,0,0)",
+                "width": "1.4pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 623.621,
+                "y": -307.086
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "NWELL",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "color": "#ffffff",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 862.992,
+                    "y": -4.724
+                },
+                {
+                    "x": 69.291,
+                    "y": -4.724
+                }
+            ],
+            "stroke": {
+                "width": "1.4pt"
+            },
+            "directions": [
+                null
+            ],
+            "startArrow": "stealth"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 69.291,
+                    "y": -4.724
+                },
+                {
+                    "x": 69.291,
+                    "y": -162.204
+                }
+            ],
+            "stroke": {
+                "width": "1.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "stealth"
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 217.323,
+                "y": -77.165
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 176.378,
+                    "y": -67.716
+                },
+                {
+                    "x": 176.378,
+                    "y": -61.417
+                },
+                {
+                    "x": 258.268,
+                    "y": -55.118
+                },
+                {
+                    "x": 258.268,
+                    "y": -67.716
+                }
+            ],
+            "fill": {
+                "color": "rgb(0,0,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 163.78,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 270.867,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 538.583,
+                "y": -77.165
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 497.638,
+                    "y": -67.716
+                },
+                {
+                    "x": 497.638,
+                    "y": -61.417
+                },
+                {
+                    "x": 579.528,
+                    "y": -55.118
+                },
+                {
+                    "x": 579.528,
+                    "y": -67.716
+                }
+            ],
+            "fill": {
+                "color": "rgb(0,0,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 485.04,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 592.127,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 381.103,
+                "y": -77.165
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 340.158,
+                    "y": -67.716
+                },
+                {
+                    "x": 340.158,
+                    "y": -61.417
+                },
+                {
+                    "x": 422.048,
+                    "y": -55.118
+                },
+                {
+                    "x": 422.048,
+                    "y": -67.716
+                }
+            ],
+            "fill": {
+                "color": "rgb(0,0,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 327.56,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 434.647,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(0,0,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "p+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 215.748,
+                "y": -114.961
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Dummy\n",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 376.377,
+                "y": -118.111
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Device B",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 537.008,
+                "y": -118.111
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Dummy",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 566.929,
+                    "y": -23.622
+                },
+                {
+                    "x": 188.976,
+                    "y": -23.622
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "1.4pt"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 34.646,
+                "y": -157.48
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 56.693,
+                "y": 34.646
+            },
+            "text": {
+                "text": "Stress",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 566.929,
+                    "y": -23.622
+                },
+                {
+                    "x": 661.417,
+                    "y": -105.512
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "1.4pt"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 692.913,
+                    "y": -105.512
+                },
+                {
+                    "x": 749.606,
+                    "y": -36.22
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "1.4pt"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 100.787,
+                    "y": -111.811
+                },
+                {
+                    "x": 188.976,
+                    "y": -23.622
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "1.4pt"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 784.252,
+                "y": -392.126
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 742.917,
+                    "y": -382.677
+                },
+                {
+                    "x": 742.917,
+                    "y": -376.378
+                },
+                {
+                    "x": 824.807,
+                    "y": -370.079
+                },
+                {
+                    "x": 824.807,
+                    "y": -382.677
+                }
+            ],
+            "fill": {
+                "color": "rgb(255,34,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 730.709,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(255,34,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "n+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 837.796,
+                "y": -370.079
+            },
+            "fill": {
+                "color": "rgb(255,34,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "n+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 782.677,
+                "y": -341.732
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Device D",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 784.642,
+                "y": -77.165
+            },
+            "size": {
+                "x": 81.89,
+                "y": 18.898
+            }
+        },
+        {
+            "type": "polygon",
+            "points": [
+                {
+                    "x": 743.307,
+                    "y": -67.716
+                },
+                {
+                    "x": 743.307,
+                    "y": -61.417
+                },
+                {
+                    "x": 825.197,
+                    "y": -55.118
+                },
+                {
+                    "x": 825.197,
+                    "y": -67.716
+                }
+            ],
+            "fill": {
+                "color": "rgb(255,34,255)"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 731.099,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(255,34,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "n+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 838.186,
+                "y": -55.118
+            },
+            "fill": {
+                "color": "rgb(255,34,255)"
+            },
+            "size": {
+                "x": 25.197,
+                "y": 25.197
+            },
+            "text": {
+                "text": "n+",
+                "align": 1,
+                "justify": 0,
+                "color": "#ffffff"
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 689.763,
+                    "y": -382.677
+                },
+                {
+                    "x": 689.763,
+                    "y": -4.724
+                }
+            ],
+            "stroke": {
+                "color": "rgb(0,0,0)",
+                "width": "1.4pt",
+                "style": "dashed"
+            },
+            "directions": [
+                "--"
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 782.677,
+                "y": -118.11
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 91.338,
+                "y": 31.496
+            },
+            "text": {
+                "text": "Device D",
+                "align": 1,
+                "justify": 0,
+                "fontSize": "large",
+                "showPlaceholderText": true
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 661.417,
+                    "y": -105.512
+                },
+                {
+                    "x": 692.913,
+                    "y": -105.512
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "1.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 749.606,
+                    "y": -36.22
+                },
+                {
+                    "x": 793.701,
+                    "y": -29.921
+                },
+                {
+                    "x": 837.795,
+                    "y": -23.622
+                }
+            ],
+            "stroke": {
+                "color": "rgb(255,0,0)",
+                "width": "1.4pt"
+            },
+            "directions": [
+                "--",
+                "--"
+            ]
+        }
+    ]
+}
